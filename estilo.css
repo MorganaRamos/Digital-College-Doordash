@@ -3,25 +3,25 @@
     margin:0%;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
-}
-
 header{
+    height:580px;
     width: 100%;
-    height:100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
-
 }
 
-section {
+.logo{
+    text-align:center
+}
+
+.login{
+    text-align:end
+    
+}
+
+/*section {
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
     flex-direction: row;
@@ -46,4 +46,4 @@ img {
 a {
     text-decoration: none;
     color: red;
-}
+}*/
