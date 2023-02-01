@@ -20,3 +20,30 @@ header{
     background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
 
 }
+
+section {
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+}
+
+img {
+    height: 154px;
+    width: 154px;
+}
+.paragrafo {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
