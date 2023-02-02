@@ -2,17 +2,16 @@
 *{
     padding: 0%;
     margin:0%;
+    
 }
 
 body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
-}
-
-body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-bottom: 50px;
+   margin-right: 50px;
    background-color: rgb(255, 240, 237);
    color: #000000;
    font-family: Arial;
@@ -93,7 +92,47 @@ body{
    z-index:4;
 }
 
+#task3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 100%;
+    margin-bottom: 25px;
+    
+    
+}
+#task3 .direita{
+    width: 100%;
+    
+    
+    
+}
+#task3 .esquerda{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#task3 .esquerda h1{
+    font-size: 35px;
+    
+    
+    
+}
+#task3 .esquerda p{
+    width: 400px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#task3 button{
+    width: 130px;
+    height: 35px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    background-color: rgb(183, 16, 0);
+    color: #ffffff;
+    text-align: center;
+    border: 0;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+       }
+    
 
-
-
->>>>>>> c8bf2a431b2f060a726ba1dff8d4420030a7cb11
