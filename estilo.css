@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     padding: 0%;
     margin:0%;
     
@@ -392,4 +393,70 @@ footer div.rodape{
    position: bottom;
    left: 100px;
    padding-left: 10px;
+   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header{
+    height:580px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+}
+
+header .logo{
+    text-align:center;
+}
+
+
+header.login a span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+    color: rgb(255, 255, 255);
+}
+
+
+header .cadastro button{
+    width: 80px;
+    line-height: 30px;
+    border-left:25px;
+    border-radius: 32px;
+    color:black;
+    border: none;
+    text-align: end;
+    cursor:pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+header .cadastro button a span{
+    line-height: 30px;
+    color:black;   
+}
+
+
+header .texto p{
+  max-width: 668px;
+  margin-right: 600px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: rgb(255, 255, 255);  
+  text-align: center;
+}
+
+form #bnt{
+    border-radius: 32px;
+    width: 408px;
+    height: 48px;
+    border: none;
+    position: relative;
+}
+
+header .link-login a span{
+    color: rgb(255, 255, 255); 
 }
