@@ -23,6 +23,7 @@ body{
 
 #task4{
    position: relative;
+   height: 100vh;
 }
 #task4 #wb_Image1{
    position:absolute;
@@ -145,9 +146,9 @@ body{
     box-sizing: border-box;
 }
 */
-/* body{
+footer{
     background-color: rgb(25, 24, 24);
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     color: #ffffff;
     font-family: helvetica;
@@ -157,7 +158,7 @@ body{
     display: inline-block;
     justify-content: center;
     align-items: center;
-} */
+}
 
 #task2 a{
     color: #c4c4c4;
@@ -276,3 +277,119 @@ body{
     padding-left: 10px;
 }
 
+footer a{
+   color: #c4c4c4;
+   text-decoration: none;
+}
+footer a:hover{
+   color: #ffffff;
+   text-decoration: underline;
+}
+
+
+footer main.cards {
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: stretch;
+   flex-wrap: wrap;
+   gap: 20px 70px;
+   margin-left: 50px;
+}
+
+footer section.card-1 {
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: baseline;
+   flex-wrap: wrap;
+   gap: 50px 100px;
+}
+footer section.card-2 {
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: baseline;
+   flex-wrap: wrap;
+   gap: 20px 70px;
+   margin-left: 20px;
+}
+footer section.card-3 {
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: flex-end;
+   flex-wrap: wrap;
+   gap: 20px 70px;
+   margin-left: 70px;
+   margin-bottom: ;
+}
+footer section.card-4 {
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: baseline;
+   flex-wrap: wrap;
+   gap: 20px 70px;
+}
+footer section.card-5 {
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: baseline;
+   flex-wrap: wrap;
+   gap: 20px 70px;
+}
+
+footer ul{
+   display: flex;
+   flex-direction: row;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: baseline;
+   margin-left: 50px;
+   align-content: space-between;
+   gap: 20px;
+   color: #ffffff;
+   list-style-type: none;
+   line-height: 2;
+}
+
+footer div.coluna1 {
+   display: inline-block;
+   margin-left: 70px;
+
+}
+footer .coluna2 {
+   display: inline-block;
+   margin-left: 70px;
+
+}
+footer div.coluna3 {
+   display: inline-block;
+   margin-left: 70px;
+}
+
+
+footer div.rodape{
+   display: flex;
+   position: absolute;
+   flex-direction: row;
+   text-align: justify;
+   line-height: 12px;
+   margin: 10px 10px;
+   position: bottom;
+   left: 100px;
+   padding-left: 10px;
+}
