@@ -1,12 +1,136 @@
 *{
-    padding: 0%;
-    margin:0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
+    background-color: rgb(25, 24, 24);
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+    width: 100%;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 14px;
+    gap: 12px 12px;
 
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #c4c4c4;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+main.cards {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+    margin-left: 50px;
+}
+
+section.card-1 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 50px 100px;
+}
+section.card-2 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+    margin-left: 20px;
+}
+section.card-3 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+    margin-left: 70px;
+    margin-bottom: ;
+}
+section.card-4 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+}
+section.card-5 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 50px;
+    align-content: space-between;
+    gap: 20px;
+    color: #ffffff;
+    list-style-type: none;
+    line-height: 2;
+}
+
+div.coluna1 {
+    display: inline-block;
+    margin-left: 70px;
+
+}
+.coluna2 {
+    display: inline-block;
+    margin-left: 70px;
+
+}
+div.coluna3 {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+
+div.rodape{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    text-align: justify;
+    line-height: 12px;
+    margin: 10px 10px;
+    position: bottom;
+    left: 100px;
+    padding-left: 10px;
 }
